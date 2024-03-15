@@ -31,7 +31,7 @@ class Solution:
         return True
 
     def isAnagramV3(self, s: str, t: str) -> bool:
-        # print(f"{Counter(s)}\n{Counter(t)}")
+        print(f"{Counter(s)}\n{Counter(t)}")
         return Counter(s) == Counter(t)
 
 
@@ -41,7 +41,7 @@ def main():
 
     S = Solution()
     # V2 is the preferred one in an interview
-    print(S.isAnagramV2(s, t))
+    print(S.isAnagramV3(s, t))
 
 
 if __name__ == "__main__":
