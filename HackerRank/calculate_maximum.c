@@ -1,7 +1,4 @@
-#include <math.h>
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 // Complete the following function.
 
 void calculate_the_maximum(int n, int k) {
